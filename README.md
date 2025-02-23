@@ -125,6 +125,7 @@ To run the project locally:
 ```sh
 npm install
 npm start
+```
 
 ' Running on a Mobile Device
 
