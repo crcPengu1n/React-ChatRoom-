@@ -102,12 +102,6 @@ All API routes are relative to:
 | POST   | /login                     | Log in a user.              | 200, 400, 401     |
 | GET    | /whoami                    | Get details of the current user. | 200         |
 
-🔹 Important: When making API requests, always include:
-
-```json
-"Content-Type": "application/json",
-"Authorization": "Bearer <JWT>"
-
 4. How It Works
 🛠️ App Structure
 - Uses React Navigation for screen transitions.
