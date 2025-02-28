@@ -16,7 +16,7 @@ This project highlights the power of **React Native** in mobile app development,
 ---
 
 ## **2. Features Overview**
-### **🔹 Secure Login & Registration**
+### **Secure Login & Registration**
 - **Register** with a **username** and **7-digit PIN**.
 - **Real-time validation** ensures:
   - "Please enter a PIN" when a PIN is missing.
@@ -29,7 +29,7 @@ This project highlights the power of **React Native** in mobile app development,
 
 ---
 
-### **🔹 Dynamic Chatroom Management**
+### **Dynamic Chatroom Management**
 - **View all available chatrooms**, dynamically retrieved from the API.
 - Uses **React Navigation Drawer** for easy chatroom switching.
 - Implements **FlatList pull-to-refresh** for real-time message updates.
@@ -42,7 +42,7 @@ Bob: "See you there!"
 
 ---
 
-### **🔹 Creating & Posting Messages**
+### **Creating & Posting Messages**
 - Users can **create posts** inside chatrooms using a **modal interface**.
 - Requires **both a title & message content** (button disabled otherwise).
 - Shows a **confirmation alert** when the post is successfully created.
