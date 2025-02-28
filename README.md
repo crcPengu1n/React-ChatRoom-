@@ -1,10 +1,10 @@
 # **BadgerChat (Mobile) - A React Native Chat Application**
 
 ## **1. Introduction**
-Welcome to **BadgerChat (Mobile)**! 📱💬  
+Welcome to **BadgerChat (Mobile)**!  
 This is a **fully functional mobile chat application**, designed using **React Native** and **Expo**, with secure authentication and real-time chatroom features.
 
-🚀 **Key Features:**
+**Key Features:**
 - **User Authentication:** Register and log in with a secure PIN.
 - **Chatroom Management:** Browse, create, and manage chat messages dynamically.
 - **Real-time Messaging:** Pull-to-refresh functionality for instant message updates.
@@ -24,7 +24,7 @@ This project highlights the power of **React Native** in mobile app development,
   - "A PIN must be exactly 7 digits" when the format is incorrect.
 - Securely **stores JWT tokens** with expo-secure-store.
 
-✅ **Example Login Flow**:
+**Example Login Flow**:
 [Login Screen] User: "Enter username & PIN" App: "Welcome back, badgerFan!"
 
 ---
@@ -34,7 +34,7 @@ This project highlights the power of **React Native** in mobile app development,
 - Uses **React Navigation Drawer** for easy chatroom switching.
 - Implements **FlatList pull-to-refresh** for real-time message updates.
 
-✅ **Example Chatroom View**:
+**Example Chatroom View**:
 [Union South Socials]
 
 Alice: "Game night at 7PM!"
@@ -47,7 +47,7 @@ Bob: "See you there!"
 - Requires **both a title & message content** (button disabled otherwise).
 - Shows a **confirmation alert** when the post is successfully created.
 
-✅ **Example Post Creation**:
+**Example Post Creation**:
 > **User:** "Create a post in Lakeshore Lounge"  
 > **App:** "Enter title & content"  
 > **User:** "Title: Game Night!"  
@@ -56,39 +56,39 @@ Bob: "See you there!"
 
 ---
 
-### **🔹 Deleting Posts**
+### ** Deleting Posts**
 - Users **can delete their own posts**, but **not others' posts**.
 - **Deletes instantly** from the UI with a confirmation alert.
 
-✅ **Example Post Deletion**:
+**Example Post Deletion**:
 > **User:** "Delete my post in Lakeshore Lounge"  
 > **App:** "Post successfully deleted!"  
 
 ---
 
-### **🔹 Secure Logout**
+### ** Secure Logout**
 - Removes JWT from **expo-secure-store**.
 - **Redirects to login screen** after logout.
 
-✅ **Example Logout**:
+**Example Logout**:
 > **User:** "Log out"  
 > **App:** "You have been logged out."  
 
 ---
 
-### **🔹 Guest Mode (Anonymous Access)**
+### **Guest Mode (Anonymous Access)**
 - Users can **browse chatrooms as guests**.
 - **Cannot create posts** unless logged in.
 - Instead of logging out, guests **are redirected to sign up**.
 
-✅ **Example Guest Mode**:
+**Example Guest Mode**:
 > **User:** "Continue as guest"  
 > **App:** "You are now browsing as a guest."  
 
 ---
 
 ## **3. API Integration**
-### **🔹 API Endpoints**
+### **API Endpoints**
 All API routes are relative to:
 
 `https://cs571api.cs.wisc.edu/rest/f24/hw9/`
@@ -108,18 +108,18 @@ All API routes are relative to:
 - Implements JWT-based authentication.
 - Uses FlatList for efficient rendering.
 
-🛡️ Security Measures
+Security Measures
 - PINs are masked (e.g., "*******").
 - Tokens are securely stored using expo-secure-store.
 - Restricts unauthorized actions (e.g., only post owners can delete).
 
-📱 UI Enhancements
+UI Enhancements
 - Pull-to-refresh in chatrooms.
 - Auto-updating message board.
 - Intuitive navigation drawer.
 
 5. Installation & Setup
-🚀 Getting Started
+Getting Started
 To run the project locally:
 
 ```sh
@@ -133,4 +133,4 @@ npm start
 ' Scan the QR Code from the terminal output.
 ' Alternatively, use an Android Emulator (AVD).
 
-' ⚠️ Do NOT test in a web browser! This is a mobile-only application.
+' Do NOT test in a web browser! This is a mobile-only application.
